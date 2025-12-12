@@ -100,6 +100,7 @@ o codigo main.cpp le as cores.hex e gera um terreno na memoria, converte em pixe
 
 
 COMO COMPILAR?
-clone o repositorio
-dentro da pasta src rode no terminal o comando "cp paleta/cores.hex .
-./projeto_final" e verifique a pasta "proj-itp/src/mapa"
+clone o repositorio: git clone https://github.com/socaiopia/gerador-de-um-mapa
+no terminal rode cd proj-itp/src (ou entre na pasta "src")
+compile o projeto g++ mapa/main.cpp paleta/paleta.cpp -o projeto_final -Iterreno -Ipaleta -Iimagem  no terminal e rode o comando "cp paleta/cores.hex .
+./projeto_final" e verifique a pasta "proj-itp/src/mapa" :)
